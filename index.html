@@ -436,21 +436,24 @@
           </ul>
         </div>
         <div class="footer-container-contact">
+          <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form">
-            <label for="email" class="subscribe-label">Subscribe<input type="email" /></label>
+            <label class="subscribe-label"
+              ><input type="email" placeholder="E-mail" name="sbscrp-email" class="subscribe-input"
+            /></label>
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
-          <button class="subscribe-button">
-            <span>Subscribe</span>
-            <svg class="subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="submit" class="modal-button" data-modal-close>
+        <button type="button" class="modal-button" data-modal-close>
           <svg class="modal-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>

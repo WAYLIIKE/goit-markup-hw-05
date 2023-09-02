@@ -262,17 +262,67 @@ ul {
 }
 
 .footer-container-contact {
+}
+
+.subscribe-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
   display: flex;
   gap: 24px;
 }
 
-.subscribe-button {
-  display: flex;
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
 
-.subscribe-label {
+.subscribe-input::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  min-width: 165px;
+  height: 40px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--color-iris);
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--color-ocean);
+}
+
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #ffffff;
 }
 
 /*
