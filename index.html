@@ -458,6 +458,58 @@
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-form-wrapper">
+            <label for="user-name" class="modal-form-label">Name</label>
+            <div class="modal-input-wrapper">
+              <input type="text" name="user-name" id="user-name" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-wrapper">
+            <label for="user-phone" class="modal-form-label">Phone</label>
+            <div class="modal-input-wrapper">
+              <input type="text" name="user-phone" id="user-phone" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-wrapper">
+            <label for="user-email" class="modal-form-label">Email</label>
+            <div class="modal-input-wrapper">
+              <input type="text" name="user-email" id="user-email" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-wrapper">
+            <label for="user-comment" class="modal-form-label">Contact</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-form-textarea"
+            ></textarea>
+          </div>
+          <div class="modal-checkbox-wrapper">
+            <label for="user-privacy" class="modal-checkbox-label">
+              <input type="checkbox" id="user-privacy" value="true" class="visually-hidden" />
+              <span class="modal-checkbox">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-send-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
